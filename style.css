@@ -128,7 +128,7 @@ h5 {
 
 /* Navbar Design */
 
-/* Banner design */
+/* Banner Design */
 
 .text{
     margin: 28px 0px;
@@ -245,7 +245,52 @@ h5 {
     padding: 20px 20px 20px 10px;
 }
 
-/* Banner design */
+/* Banner Design */
+
+/* Habits Design */
+
+.your-habit {
+    margin-top: 6rem;
+}
+
+.habits {
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.habits-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.habit-shape {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 15rem;
+    padding-left: 13rem;
+    grid-template-columns: repeat(4, 14.5rem);
+    gap: 3rem;   
+}
+
+.habit-img {
+    border-radius: 50%;
+}
+
+.habit-shape h6 {
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.habit-shape p{
+    margin-top: 1rem;
+}
+
+/* Habits Design */
 
 
 /* Responsive Design */
@@ -280,7 +325,7 @@ h5 {
 @media screen and (max-width: 576px) {
 
     .container-parent{
-        min-height: 93vh;
+        min-height: 92.4vh;
     }
 
     .btn {
@@ -376,7 +421,6 @@ h5 {
         left: -0%;
         width: 11rem;
     }
-
 }
 
 /* Banner Responsive */
