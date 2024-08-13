@@ -1,54 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 @font-face {
-    font-family: miamaFont;
-    src: url(../Gym_Club/font/Miama.ttf);
+  font-family: miamaFont;
+  src: url("./font/Miama.ttf");
 }
 
 .inter-style {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-  }
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: Inter;
 }
 
 /* Common Design */
 
 .btn {
-    background: rgb(230, 83, 60);
-    color: rgb(255, 255, 255);
-    padding: 16px 40px;
-    max-width: 220px;
-    border: none;
-    border-radius: 40px;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;   
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  padding: 16px 40px;
+  max-width: 220px;
+  border: none;
+  border-radius: 40px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .title {
-    font-family: Inter;
-    font-style: italic;
-    color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-style: italic;
+  color: rgb(230, 83, 60);
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;  
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -56,25 +57,25 @@ h2,
 h3,
 h4,
 h5 {
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-size: 48px;
-    font-weight: 800; 
-    font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-size: 48px;
+  font-weight: 800;
+  font-weight: 900;
 }
 
-.container-parent{
-    background: linear-gradient(to left, #000000,#343434);
-    min-height: 58vh;
+.container-parent {
+  background: linear-gradient(to left, #000000, #343434);
+  min-height: 58vh;
 }
 
 .container {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    max-height: 20vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  max-height: 20vh;
 }
 
 /* Common Design */
@@ -82,167 +83,166 @@ h5 {
 /* Navbar Design */
 
 .header {
-    background: linear-gradient(to left, #000000,#343434);
+  background: linear-gradient(to left, #000000, #343434);
 }
 
 .nav-bar {
-    margin: 0;
-    padding: 0 10rem;
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0;
+  padding: 0 10rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    padding-right: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-right: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
 }
 
 .nav-title p {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    line-height: 25px;
-    letter-spacing: 0.5px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+  letter-spacing: 0.5px;
 }
 
-.hamburger{
-    color: white;
-    font-size: 2.5rem;
-    display: none;
+.hamburger {
+  color: white;
+  font-size: 2.5rem;
+  display: none;
 }
-
 
 .home {
-    background: rgb(230, 83, 60);
-    border-radius: 25px;
-    padding: 10px 20px;
+  background: rgb(230, 83, 60);
+  border-radius: 25px;
+  padding: 10px 20px;
 }
 
 /* Navbar Design */
 
 /* Banner Design */
 
-.text{
-    margin: 28px 0px;
+.text {
+  margin: 28px 0px;
 }
 
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner-item {
-    width: 32rem;
+  width: 32rem;
 }
 
 .banner-item p {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .banner-item h1 {
-    color: rgb(255, 255, 255);
-    font-size: 80px;
-    font-weight: 900;
-    line-height: 5rem;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 5rem;
 }
 
 .shape {
-    font-family: miamaFont;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-size: 6rem;
-    font-weight: 400;   
+  font-family: miamaFont;
+  color: rgb(255, 255, 255);
+  /* font-style: italic; */
+  font-size: 10rem;
+  font-weight: 400;
 }
 
 .ban-btn {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .ban-btn .btn-small {
-    display: none;
+  display: none;
 }
 
 .btn-app {
-    background-color: rgb(20, 20, 20);
-    border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .banner-image {
-    position: relative;
-    top: -2rem;
-    right: 3rem;
+  position: relative;
+  top: -2rem;
+  right: 3rem;
 }
 
 .shape1 {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    width: 12rem;
-    top: 20%;
-    right: -20%;
-    padding: 20px 0 20px 20px;
-    position: absolute;   
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 12rem;
+  top: 20%;
+  right: -20%;
+  padding: 20px 0 20px 20px;
+  position: absolute;
 }
 
 .shape1 h2 {
-    font-family: Inter;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 40px;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
 }
 
 .shape1 p {
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 
 .shape2 {
-    background: rgba(48, 48, 48, 0.54);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    width: 12rem;
-    bottom: 12%;
-    left: -30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 12rem;
+  bottom: 12%;
+  left: -30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 
 .shape2 h4 {
-    color: rgb(250, 250, 249);
-    font-size: 25px;
-    font-weight: 900;
-    line-height: 25px;
+  color: rgb(250, 250, 249);
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 25px;
 }
 
 #round {
-    background: rgb(230, 83, 60);
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;    
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .shape2-content {
-    padding: 20px 20px 20px 10px;
+  padding: 20px 20px 20px 10px;
 }
 
 /* Banner Design */
@@ -250,47 +250,51 @@ h5 {
 /* Habits Design */
 
 .your-habit {
-    margin: 6rem 0;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 6rem 0;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .habits {
-    text-align: center;
-    padding-bottom: 6rem;
+  text-align: center;
+  padding-bottom: 6rem;
 }
 
 .habits-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.habits-p{
+  margin-top: 2rem;
 }
 
 .habit-shape {
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    max-width: 15rem;
-    padding-left: 13rem;
-    grid-template-columns: repeat(4, 14.5rem);
-    gap: 3rem;   
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 15rem;
+  padding-left: 13rem;
+  grid-template-columns: repeat(4, 14.5rem);
+  gap: 3rem;
 }
 
 .habit-img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .habit-shape h6 {
-    color: rgb(255, 255, 255);
-    margin-top: 1rem;
-    font-size: 20px;
-    font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.habit-shape p{
-    margin-top: 1rem;
+.habit-shape p {
+  margin-top: 1rem;
 }
 
 /* Habits Design */
@@ -298,78 +302,123 @@ h5 {
 /* Run Extra Design */
 
 .run-extra {
-    background: rgb(34, 34, 34); 
-    border-radius: 20px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 160px; 
+  background: rgb(34, 34, 34);
+  border-radius: 20px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 160px;
 }
 
 .run-details {
-    padding-top: 40px;
-    padding-left: 50px;
+  padding-top: 40px;
+  padding-left: 50px;
 }
 
 .run-details h2 {
-    color: rgb(255, 255, 255);
-    padding-bottom: 15px;
-    font-family: Inter;
-    font-size: 50px;
-    font-weight: 900;  
+  color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 .run-details p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    padding-bottom: 20px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;   
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 .run-extra img {
-    border-radius: 20px;
-    width: 70%;
+  border-radius: 20px;
+  width: 70%;
 }
 
 .run-extra-img {
-    padding: 80px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Run Extra Design */
 
+.facilities{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.facilities-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
+  gap: 50px;
+}
+
+.facility-card {
+  min-width: 220px;
+  border-radius: 18px;
+  padding: 4rem 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(24,24,24);
+  text-align: center;
+}
+
+.facility-content h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.facility-content p {
+  margin-top: 2rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.facilities-text{
+  margin-top: 2rem;
+}
+
+.card-btn{
+  margin-top: 1.5rem;
+  max-width: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
 
 /* Responsive Design */
 
 /* Navbar Responsive */
 
 @media screen and (max-width: 576px) {
+  .nav-title {
+    display: none;
+  }
 
-    .nav-title {
-        display: none;
-    }
+  .nav-bar {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .nav-bar {
-        padding: 1rem 2rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;    
-    }
-
-    .hamburger {
-        color: rgb(255, 255, 255);
-        display: block;
-        cursor: pointer;
-        font-size: 1.5rem;  
-    }
+  .hamburger {
+    color: rgb(255, 255, 255);
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
 }
 
 /* Navbar Responsive  */
@@ -377,104 +426,103 @@ h5 {
 /* Banner Responsive */
 
 @media screen and (max-width: 576px) {
+  .container-parent {
+    min-height: 92.4vh;
+  }
 
-    .container-parent{
-        min-height: 92.4vh;
-    }
+  .btn {
+    max-width: 150px;
+  }
 
-    .btn {
-        max-width: 150px;
-    }
+  .banner {
+    align-items: center;
+    flex-direction: column;
+  }
 
-    .banner {
-        align-items: center;
-        flex-direction: column; 
-    }
+  .banner-item {
+    max-width: 100%;
+  }
 
-    .banner-item {
-        max-width: 100%;
-    }
+  .banner-item h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: start;
+    line-height: 120%;
+    letter-spacing: 0%;
+    padding-bottom: 1.8rem;
+  }
 
-    .banner-item h1 {
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 35px;
-        font-weight: 900;
-        text-align: start;
-        line-height: 120%;
-        letter-spacing: 0%;
-        padding-bottom: 1.8rem;    
-    }
+  .banner-item p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+  }
 
-    .banner-item p {
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: 0.5px;
-    }
+  .ban-btn .btn-big {
+    display: none;
+  }
 
-    .ban-btn .btn-big {
-        display: none;
-    }
+  .ban-btn .btn-small {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: 3.2rem;
+    width: 10rem;
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-    .ban-btn .btn-small {
-        color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        height: 3.2rem;
-        width: 10rem;
-        font-size: 14px;
-        font-weight: 600;      
-    }
+  .ban-btn .btn-app {
+    display: flex;
+    justify-content: center;
+    padding: 16px 25px;
+    height: 3.2rem;
+    width: 10rem;
+    font-size: 13px;
+    font-weight: 600;
+  }
 
-    .ban-btn .btn-app {
-        display: flex;
-        justify-content: center;
-        padding: 16px 25px;
-        height: 3.2rem;
-        width: 10rem;
-        font-size: 13px;
-        font-weight: 600;
-    }
+  .banner-image {
+    text-align: center;
+    width: 100%;
+    top: 1vh;
+    right: 2vh;
+  }
 
-    .banner-image {
-        text-align: center;
-        width: 100%;    
-        top: 1vh;
-        right: 2vh;
-    }
+  .banner-image img {
+    width: 80%;
+    height: auto;
+  }
 
-    .banner-image img {
-        width: 80%;
-        height: auto;
-    }
+  .shape {
+    font-size: 4.5rem;
+    font-weight: 400;
+  }
 
-    .shape {
-        font-size: 4.5rem;
-        font-weight: 400;
-    }
+  .shape1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    width: 11rem;
+    top: 9%;
+    right: -2%;
+    position: absolute;
+    padding: 15px 0 15px 15px;
+  }
 
-    .shape1 {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(20px);
-        width: 11rem;
-        top: 9%;
-        right: -2%;
-        position: absolute; 
-        padding: 15px 0 15px 15px;
-    }
+  .shape1 p {
+    font-size: 10px;
+  }
 
-    .shape1 p {
-        font-size: 10px;
-    }
-
-    .shape2 {    
-        bottom: 41%;
-        left: -0%;
-        width: 11rem;
-    }
+  .shape2 {
+    bottom: 41%;
+    left: -0%;
+    width: 11rem;
+  }
 }
 
 /* Banner Responsive */
@@ -482,11 +530,11 @@ h5 {
 /* Habits Responsive */
 
 @media screen and (max-width: 576px) {
-    .habit-shape {
-        grid-template-columns: repeat(1, 15rem);
-        padding: 5rem;
-        justify-items: center;  
-    }
+  .habit-shape {
+    grid-template-columns: repeat(1, 15rem);
+    padding: 5rem;
+    justify-items: center;
+  }
 }
 
 /* Habits Responsive */
@@ -494,35 +542,33 @@ h5 {
 /* Run Extra Responsive */
 
 @media screen and (max-width: 576px) {
+  .run-extra {
+    gap: 0;
+    flex-direction: column;
+  }
 
-    .run-extra {
-        gap: 0;
-        flex-direction: column;  
-    }
+  .join {
+    align-content: center;
+    padding: 20px 100px;
+    max-width: 500px;
+    margin-left: 2rem;
+  }
 
-    .join {
-        align-content: center;
-        padding: 20px 100px;
-        max-width: 500px;
-        margin-left: 2rem;
-    }
+  .run-details p {
+    font-size: 15px;
+  }
 
-    .run-details p {
-        font-size: 15px;
-    }
+  .run-details h2 {
+    font-size: 35px;
+  }
 
-    .run-details h2 {
-        font-size: 35px;
-    }
+  .run-extra-img {
+    padding: 45px 0;
+  }
 
-    .run-extra-img {
-        padding: 45px 0;
-    }
-
-    .run-extra img {
-        width: 90%;
-    }
-    
+  .run-extra img {
+    width: 90%;
+  }
 }
 
 /* Run Extra Responsive */
