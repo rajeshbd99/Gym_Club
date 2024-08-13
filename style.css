@@ -491,4 +491,40 @@ h5 {
 
 /* Habits Responsive */
 
+/* Run Extra Responsive */
+
+@media screen and (max-width: 576px) {
+
+    .run-extra {
+        gap: 0;
+        flex-direction: column;  
+    }
+
+    .join {
+        align-content: center;
+        padding: 20px 100px;
+        max-width: 500px;
+        margin-left: 2rem;
+    }
+
+    .run-details p {
+        font-size: 15px;
+    }
+
+    .run-details h2 {
+        font-size: 35px;
+    }
+
+    .run-extra-img {
+        padding: 45px 0;
+    }
+
+    .run-extra img {
+        width: 90%;
+    }
+    
+}
+
+/* Run Extra Responsive */
+
 /* Responsive Design */
