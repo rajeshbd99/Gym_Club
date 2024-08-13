@@ -425,4 +425,16 @@ h5 {
 
 /* Banner Responsive */
 
+/* Habits Responsive */
+
+@media screen and (max-width: 576px) {
+    .habit-shape {
+        grid-template-columns: repeat(1, 15rem);
+        padding: 5rem;
+        justify-items: center;  
+    }
+}
+
+/* Habits Responsive */
+
 /* Responsive Design */
