@@ -250,7 +250,10 @@ h5 {
 /* Habits Design */
 
 .your-habit {
-    margin-top: 6rem;
+    margin: 6rem 0;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .habits {
@@ -291,6 +294,57 @@ h5 {
 }
 
 /* Habits Design */
+
+/* Run Extra Design */
+
+.run-extra {
+    background: rgb(34, 34, 34); 
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px; 
+}
+
+.run-details {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.run-details h2 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 900;  
+}
+
+.run-details p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;   
+}
+
+.run-extra img {
+    border-radius: 20px;
+    width: 70%;
+}
+
+.run-extra-img {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Run Extra Design */
 
 
 /* Responsive Design */
