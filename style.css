@@ -343,6 +343,8 @@ h5 {
 
 /* Run Extra Design */
 
+/* Facilities Design */
+
 .facilities{
   max-width: 80%;
   margin-left: auto;
@@ -389,6 +391,10 @@ h5 {
   border-radius: 10px;
   padding: 10px 30px;
 }
+
+/* Facilities Design */
+
+
 
 /* Responsive Design */
 
@@ -565,5 +571,26 @@ h5 {
 }
 
 /* Run Extra Responsive */
+
+/* Facilities Responsive */
+
+@media screen and (max-width: 576px) {
+  .facilities-container {
+    padding-left: 3.5rem;
+    grid-template-columns: repeat(1, 15rem);
+    align-items: center; 
+  }
+
+  .facility-card {
+    width: 100%;
+    max-width: none; 
+  }
+
+  .card-btn{
+    max-width: 100%;
+  }
+}
+
+/* Facilities Responsive */
 
 /* Responsive Design */
