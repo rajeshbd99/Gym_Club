@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: miamaFont;
+    src: url(../Gym_Club/font/Miama.ttf);
+}
+
+.inter-style {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+/* Common Design */
+
+.btn {
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 16px 40px;
+    max-width: 220px;
+    border: none;
+    border-radius: 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;   
+}
+
+.title {
+    font-family: Inter;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-size: 48px;
+    font-weight: 800; 
+    font-weight: 900;
+}
+
+.container-parent{
+    background: linear-gradient(to left, #000000,#343434);
+    min-height: 58vh;
+}
+
+.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 20vh;
+}
+
+/* Common Design */
+
+/* Navbar Design */
+
+.header {
+    background: linear-gradient(to left, #000000,#343434);
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0 10rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-right: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+}
+
+.nav-title p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.hamburger{
+    color: white;
+    font-size: 2.5rem;
+    display: none;
+}
+
+
+.home {
+    background: rgb(230, 83, 60);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* Navbar Design */
+
+/* Banner design */
+
+.text{
+    margin: 28px 0px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-item {
+    width: 32rem;
+}
+
+.banner-item p {
+    margin-bottom: 25px;
+}
+
+.banner-item h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.shape {
+    font-family: miamaFont;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 6rem;
+    font-weight: 400;   
+}
+
+.ban-btn {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ban-btn .btn-small {
+    display: none;
+}
+
+.btn-app {
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.banner-image {
+    position: relative;
+    top: -2rem;
+    right: 3rem;
+}
+
+.shape1 {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 12rem;
+    top: 20%;
+    right: -20%;
+    padding: 20px 0 20px 20px;
+    position: absolute;   
+}
+
+.shape1 h2 {
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.shape1 p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.shape2 {
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 12rem;
+    bottom: 12%;
+    left: -30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.shape2 h4 {
+    color: rgb(250, 250, 249);
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+#round {
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;    
+}
+
+.shape2-content {
+    padding: 20px 20px 20px 10px;
+}
+
+/* Banner design */
