@@ -645,6 +645,11 @@ hr{
 /* Navbar Responsive */
 
 @media screen and (max-width: 576px) {
+  main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .nav-title {
     display: none;
   }
@@ -731,7 +736,7 @@ hr{
   .banner-image {
     text-align: center;
     width: 100%;
-    top: 1.7vh;
+    top: 3vh;
     right: 2vh;
   }
 
@@ -819,6 +824,7 @@ hr{
 /* Facilities Responsive */
 
 @media screen and (max-width: 576px) {
+
   .facilities-container {
     padding-left: 3.5rem;
     grid-template-columns: repeat(1, 15rem);
@@ -840,6 +846,10 @@ hr{
 /* BMI Responsive */
 
 @media screen and (max-width: 576px) {
+  .bmi-sec {
+    margin: 0;
+    padding: 0;
+  }
   .bmi-info {
     padding-left: 0;
     text-align: start;
@@ -987,7 +997,7 @@ hr{
 @media screen and (max-width: 576px) {
   footer{
     max-height: 120vh;
-    min-width: 80%;
+    min-width: 70%;
     margin-top: 95rem;
   }
   
@@ -997,6 +1007,7 @@ hr{
       justify-content: flex-start;
       align-items: center;
       padding: 2rem;
+      margin: 0;
   }
 
   .foot-info {
