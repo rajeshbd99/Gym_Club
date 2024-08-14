@@ -251,6 +251,7 @@ h5 {
 .habits {
   text-align: center;
   padding-bottom: 6rem;
+  margin-left: 3rem;
 }
 
 .habits-h1 {
@@ -415,7 +416,8 @@ h5 {
 }
 
 .bmi-table {
-  padding: 5rem;
+  padding: 5rem 0 5rem 0;
+  margin: 0;
 }
 
 .bmi-table h3 {
@@ -674,8 +676,13 @@ hr{
 /* Banner Responsive */
 
 @media screen and (max-width: 576px) {
+  .all{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .container-parent {
-    min-height: 92.4vh;
+    min-height: 167vh;
   }
 
   .btn {
@@ -757,7 +764,6 @@ hr{
     backdrop-filter: blur(20px);
     width: 11rem;
     top: 9%;
-    right: -2%;
     position: absolute;
     padding: 15px 0 15px 15px;
   }
@@ -778,9 +784,13 @@ hr{
 /* Habits Responsive */
 
 @media screen and (max-width: 576px) {
+  .habits {
+    padding: 0 0 5rem 0;
+    margin: 0;
+  }
   .habit-shape {
     grid-template-columns: repeat(1, 15rem);
-    padding: 5rem;
+    padding: 3rem;
     justify-items: center;
   }
 }
@@ -799,7 +809,8 @@ hr{
     align-content: center;
     padding: 20px 100px;
     max-width: 500px;
-    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
   }
 
   .run-details p {
@@ -826,7 +837,6 @@ hr{
 @media screen and (max-width: 576px) {
 
   .facilities-container {
-    padding-left: 3.5rem;
     grid-template-columns: repeat(1, 15rem);
     align-items: center;
   }
@@ -881,9 +891,7 @@ hr{
   }
 
   .cal-bmi p {
-    margin: 2rem;
-    padding-left: 3rem;
-    padding-right: 5rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
   }
 
@@ -926,9 +934,9 @@ hr{
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(1, 17rem);
-    padding: 2rem;
+    padding: 0rem 2rem 2rem 3rem;
     padding-bottom: 2rem;
-    max-height: 240vh;
+    max-height: 300vh;
     max-width: 80%;
   }
 
@@ -996,8 +1004,8 @@ hr{
 
 @media screen and (max-width: 576px) {
   footer{
-    max-height: 120vh;
-    min-width: 70%;
+    max-height: 240vh;
+    min-width: 80%;
     margin-top: 95rem;
   }
   
@@ -1017,7 +1025,7 @@ hr{
   .footer-data h4 {
     margin-top: 2rem;
     padding-right: 18rem;
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .footer-data p {
