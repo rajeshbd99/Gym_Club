@@ -599,7 +599,7 @@ footer {
   margin-top: 40rem;
 }
 
-.footer-section {
+.footer {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -731,7 +731,7 @@ hr{
   .banner-image {
     text-align: center;
     width: 100%;
-    top: 1vh;
+    top: 1.7vh;
     right: 2vh;
   }
 
@@ -927,8 +927,7 @@ hr{
   }
 
   .image1 {
-    width: 100%;
-    height: 200px;
+    display: none;
   }
 
   .image2 {
@@ -942,8 +941,7 @@ hr{
   }
 
   .image4 {
-    width: 100%;
-    height: 200px;
+    display: none;
   }
 
   .image5 {
@@ -983,5 +981,48 @@ hr{
 }
 
 /* Our Team Responsive  */
+
+/* Footer Responsive */
+
+@media screen and (max-width: 576px) {
+  footer{
+    max-height: 120vh;
+    min-width: 80%;
+    margin-top: 95rem;
+  }
+  
+  .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 2rem;
+  }
+
+  .foot-info {
+      width: 100%;
+  }
+
+  .footer-data h4 {
+    margin-top: 2rem;
+    padding-right: 18rem;
+      font-size: 24px;
+  }
+
+  .footer-data p {
+      font-size: 14px;
+  }
+
+  hr{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .privacy {
+      font-size: 16px;
+  }
+}
+
+/* Footer Responsive */
 
 /* Responsive Design */
