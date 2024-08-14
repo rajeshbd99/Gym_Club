@@ -535,7 +535,7 @@ select {
 }
 
 .image1 {
-  background: url("/images/trainer1.png");
+  background: url("images/trainer1.png");
 }
 
 .image2 {
