@@ -498,7 +498,7 @@ select {
 
 /* BMI Design */
 
-/* Our Team */
+/* Our Team Design */
 
 .our-team {
   max-width: 80%;
@@ -560,13 +560,13 @@ select {
   background: url(..//images/trainer6.png);
 }
 
-.team-commom{
+.team-commom {
   height: 250px;
   width: 85%;
   position: relative;
   border-radius: 18px;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .info {
@@ -578,7 +578,7 @@ select {
 .info h4 {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px #333;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .info p {
@@ -586,7 +586,7 @@ select {
   font-size: 15px;
 }
 
-/* Our Team */
+/* Our Team Design */
 
 /* Responsive Design */
 
@@ -800,6 +800,7 @@ select {
   .bmi-data {
     display: flex;
     flex-direction: column;
+    padding-bottom: 5rem;
   }
 
   .cal-bmi {
@@ -851,5 +852,84 @@ select {
 }
 
 /* BMI Responsive */
+
+/* Our Team Responsive */
+
+@media screen and (max-width: 576px) {
+  .our-team {
+    padding-left: 0;
+  }
+
+  .team-box {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 17rem);
+    padding: 2rem;
+    padding-bottom: 2rem;
+    max-height: 240vh;
+    max-width: 80%;
+  }
+
+  .team-card {
+    width: 20rem;
+  }
+
+  .image1 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image2 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image3 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image4 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image5 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image6 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .team-commom {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    width: 80%;
+    border-radius: 18px;
+  }
+
+  .info {
+    top: 15rem;
+    left: 1rem;
+  }
+
+  .info h4 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #333;
+    font-size: 25px;
+  }
+
+  .info p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+  }
+}
+
+/* Our Team Responsive  */
 
 /* Responsive Design */
