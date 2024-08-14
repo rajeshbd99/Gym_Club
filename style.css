@@ -498,6 +498,96 @@ select {
 
 /* BMI Design */
 
+/* Our Team */
+
+.our-team {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-left: 5rem;
+  text-align: center;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-height: 18vh;
+  max-width: 65%;
+}
+
+.team-box {
+  background: rgba(255, 255, 255, 0.1);
+  max-height: 120vh;
+  max-width: 100%;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  grid-template-columns: repeat(3, 18rem);
+  row-gap: 2rem;
+  padding: 2rem;
+  border-radius: 18px;
+}
+
+.team-card {
+  width: 325px;
+}
+
+.image1 {
+  background: url(..//images/trainer1.png);
+}
+
+.image2 {
+  background: url(..//images/trainer2.png);
+}
+
+.image3 {
+  background: url(..//images/trainer3.png);
+}
+
+.image4 {
+  background: url(..//images/trainer4.png);
+}
+
+.image5 {
+  background: url(..//images/trainer5.png);
+}
+
+.image6 {
+  background: url(..//images/trainer6.png);
+}
+
+.team-commom{
+  height: 250px;
+  width: 85%;
+  position: relative;
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center; 
+}
+
+.info {
+  left: 1rem;
+  top: 12rem;
+  position: absolute;
+}
+
+.info h4 {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px #333;
+  font-size: 23px;
+}
+
+.info p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+}
+
+/* Our Team */
+
 /* Responsive Design */
 
 /* Navbar Responsive */
