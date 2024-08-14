@@ -537,27 +537,27 @@ select {
 }
 
 .image1 {
-  background: url(..//images/trainer1.png);
+  background: url(../Gym_Club/images/trainer1.png);
 }
 
 .image2 {
-  background: url(..//images/trainer2.png);
+  background: url(../Gym_Club/images/trainer2.png);
 }
 
 .image3 {
-  background: url(..//images/trainer3.png);
+  background: url(../Gym_Club/images/trainer3.png);
 }
 
 .image4 {
-  background: url(..//images/trainer4.png);
+  background: url(../Gym_Club/images/trainer4.png);
 }
 
 .image5 {
-  background: url(..//images/trainer5.png);
+  background: url(../Gym_Club/images/trainer5.png);
 }
 
 .image6 {
-  background: url(..//images/trainer6.png);
+  background: url(../Gym_Club/images/trainer6.png);
 }
 
 .team-commom {
