@@ -272,7 +272,6 @@ h5 {
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
   margin: 0 auto;
-  
 }
 
 .habit-img {
@@ -594,8 +593,6 @@ select {
 
 /* Footer Design */
 
-/* Footer styles */
-
 footer {
   background: rgba(255, 255, 255, 0.1);
   margin-top: 40rem;
@@ -642,6 +639,10 @@ hr{
 
 /* Footer Design */
 
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+
 /* Responsive Design */
 
 /* Navbar Responsive */
@@ -681,8 +682,9 @@ hr{
     padding: 0;
     box-sizing: border-box;
   }
+
   .container-parent {
-    min-height: 167vh;
+    min-height: 93.9vh;
   }
 
   .btn {
@@ -835,7 +837,6 @@ hr{
 /* Facilities Responsive */
 
 @media screen and (max-width: 576px) {
-
   .facilities-container {
     grid-template-columns: repeat(1, 15rem);
     align-items: center;
